@@ -1,5 +1,6 @@
 body{
-    background-image: linear-gradient(to left,#164B7C , #FDBD15 );}
+    background-color: #a67a00
+}
 
 .tcnj{
   font-family: "EB Garamond", serif;
@@ -8,3 +9,6 @@ body{
   font-style: normal;
   font-size: 50px;
 }
+
+.maybe{
+  
