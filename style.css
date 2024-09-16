@@ -24,6 +24,14 @@ h3{
     font-style: normal;
 }
 
+.nav-item{
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 500px;
+    font-style: normal;
+    font-size: 25px;
+}
+
 .loop{
     background-color:  #164B7C;
 
@@ -65,7 +73,7 @@ body {
 }
 
 .hero {
-    background: url('https://source.unsplash.com/random/1600x900/?technology') no-repeat center center;
+    background: url('https://images.sidearmdev.com/crop?url=https%3a%2f%2fdxbhsrqyrr690.cloudfront.net%2fsidearm.nextgen.sites%2ftcnjathletics.com%2fimages%2f2023%2f2%2f27%2fMascot_Zoom.png&height=797&width=1416&type=webp&gravity=smart') no-repeat center center;
     background-size: cover;
     height: 100vh;
     display: flex;
