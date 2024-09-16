@@ -1,12 +1,12 @@
-body{
-    background-color: #a67a00
+body {
+  background-color: #a67a00;
 }
 
-.fresh{
-    background-color: #293F6F;
+.fresh {
+  background-color: #293f6f;
 }
 
-.tcnj{
+.tcnj {
   font-family: "EB Garamond", serif;
   font-optical-sizing: auto;
   font-weight: 500px;
@@ -14,100 +14,101 @@ body{
   font-size: 50px;
 }
 
-.maybe{
-    background-color: #293F6F;
-}
-  
-h3{
-    font-family: "Cormorant Garamond", serif;
-    font-weight: 700;
-    font-style: normal;
+.maybe {
+  background-color: #293f6f;
 }
 
-.nav-item{
-    font-family: "EB Garamond", serif;
-    font-optical-sizing: auto;
-    font-weight: 500px;
-    font-style: normal;
-    font-size: 25px;
-}
-
-.loop{
-    background-color:  #164B7C;
+h3 {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 700;
+  font-style: normal;
 
 }
 
-h1{
-    font-family: "EB Garamond", serif;
+.nav-item {
+  font-family: "EB Garamond", serif;
   font-optical-sizing: auto;
   font-weight: 500px;
   font-style: normal;
-  font-size: 50px; 
+  font-size: 25px;
 }
 
-.card-title{
-color: white;
+.loop {
+  background-color: #164b7c;
 }
 
-.card-texts{
-    color: white;
-    font-family: "Cormorant Garamond", serif;
-    font-size: large;
-}
-.card-text{
-    font-family: "Cormorant Garamond", serif;
-    font-size: large;
+h1 {
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: 500px;
+  font-style: normal;
+  font-size: 50px;
 }
 
-.change{
-    width: 205px;
-    height: 185px;
-    border-radius: 50%;
-    display: block;
+.card-title {
+  color: white;
+}
+
+.card-texts {
+  color: white;
+  font-family: "Cormorant Garamond", serif;
+  font-size: large;
+}
+.card-text {
+  font-family: "Cormorant Garamond", serif;
+  font-size: large;
+}
+
+.change {
+  width: 205px;
+  height: 185px;
+  border-radius: 50%;
+  display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
 body {
-    padding-top: 56px;
+  padding-top: 56px;
 }
 
 .hero {
-    background: url('https://images.sidearmdev.com/crop?url=https%3a%2f%2fdxbhsrqyrr690.cloudfront.net%2fsidearm.nextgen.sites%2ftcnjathletics.com%2fimages%2f2023%2f2%2f27%2fMascot_Zoom.png&height=797&width=1416&type=webp&gravity=smart') no-repeat center center;
-    background-size: cover;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    color: white;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  background: url("https://images.sidearmdev.com/crop?url=https%3a%2f%2fdxbhsrqyrr690.cloudfront.net%2fsidearm.nextgen.sites%2ftcnjathletics.com%2fimages%2f2023%2f2%2f27%2fMascot_Zoom.png&height=797&width=1416&type=webp&gravity=smart")
+    no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .hero h1 {
-    font-size: 3.5rem;
-    margin-bottom: 1rem;
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
 }
 
 .hero p {
-    font-size: 1.5rem;
-    margin-bottom: 2rem;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
 }
 
 section {
-    padding: 60px 0;
+  padding: 60px 0;
 }
 
 h2 {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .card {
-    transition: transform 0.3s;
+  transition: transform 0.3s;
 }
 
 .card:hover {
-    transform: translateY(-5px);
+  transform: translateY(-5px);
 }
 
 footer {
-    margin-top: 50px;
+  margin-top: 50px;
 }
