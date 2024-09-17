@@ -10,6 +10,9 @@
   background-color: #293f6f;
 }
 
+
+
+
 .tcnj {
   font-family: "EB Garamond", serif;
   font-optical-sizing: auto;
@@ -17,7 +20,7 @@
   font-style: normal;
   font-size: 50px;
   color: white;
-  text-shadow: 5px 5px 5px black;
+  text-shadow: 2px 2px 2px black;
 
 }
 
@@ -30,6 +33,7 @@ h3 {
   font-family: "Cormorant Garamond", serif;
   font-weight: 700;
   font-style: normal;
+color: white;
 
 }
 
@@ -82,7 +86,7 @@ body {
 }
 
 .hero {
-  background: url("https://images.sidearmdev.com/crop?url=https%3a%2f%2fdxbhsrqyrr690.cloudfront.net%2fsidearm.nextgen.sites%2ftcnjathletics.com%2fimages%2f2023%2f2%2f27%2fMascot_Zoom.png&height=797&width=1416&type=webp&gravity=smart")
+  background: url("crop2.webp")
     no-repeat center center;
   background-size: cover;
   height: 100vh;
@@ -123,7 +127,7 @@ footer {
 }
 
 nav ul {
-  max-width: 100px; 
+  max-width: 10px; 
   margin: 0 auto;
   list-style: none; 
 }
