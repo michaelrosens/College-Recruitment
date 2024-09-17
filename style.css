@@ -1,9 +1,11 @@
 
 
-body {
-  background-color: #a67a00;
-}
 
+
+.cool{
+  background-image:linear-gradient(#164b7c ,#a67a00);
+
+}
 .fresh {
   background-color: #293f6f;
 }
@@ -20,9 +22,6 @@ body {
     font-family: "EB Garamond", serif;
 }
 
-.maybe {
-  background-color: #293f6f;
-}
 
 h3 {
   font-family: "Cormorant Garamond", serif;
@@ -41,7 +40,7 @@ h3 {
 
  
 .loop {
-  background-color: #164b7c;
+  background-image:linear-gradient(#a67a00,#164b7c ) ;
 }
 
 h1 {
@@ -52,9 +51,6 @@ h1 {
   font-size: 50px;
 }
 
-.card-title {
-  color: white;
-}
 
 .card-texts {
   color: white;
