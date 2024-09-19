@@ -35,7 +35,7 @@
                             <ul class="navbar-nav ms-auto">
                                 <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
                                 <li class="nav-item"><a class="nav-link" href="#programs">Programs</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#student-life">Freshman  </a></li>
+                                <li class="nav-item"><a class="nav-link" href="#student-life">Freshman </a></li>
                                 <li class="nav-item"><a class="nav-link" href="#admissions">Admissions</a></li>
                                 <li class="nav-item"><a class="nav-link" href="#alumni">Alumni</a></li>
                             </ul>
@@ -47,11 +47,12 @@
     <header id="home" class="hero">
         <div class="container text-center">
             <h1> Welcome to The College of New Jersey</h1>
-            <p class="lead">Develop critical thinkers, responsible citizens, and lifelong learners and leaders            </p>
-            <a href="https://academics.tcnj.edu/majors/" target=”_blank” class="btn btn-primary btn-lg"> Explore Our Programs</a>
+            <p class="lead">Develop critical thinkers, responsible citizens, and lifelong learners and leaders </p>
+            <a href="https://academics.tcnj.edu/majors/" target=”_blank” class="btn btn-primary btn-lg"> Explore Our
+                Programs</a>
         </div>
     </header>
-    
+
 
     <main>
         <section id="programs" class="py-5 cool">
@@ -95,7 +96,7 @@
                 <h2 class="text-center mb-4 tcnj">Freshman Welcome Week</h2>
                 <div class="row">
                     <div class="col-md-4 mb-4">
-                        <h3 >TRON XL Inflatable Laser Tag</h3>
+                        <h3>TRON XL Inflatable Laser Tag</h3>
                         <ul>
                             <li><b>Event</b>: TRON XL Inflatable Laser Tag</li>
                             <li><b>Time & Location</b>: 8:00 p.m. - 12:00 a.m. at Brower Student Center 100</li>
@@ -158,9 +159,54 @@
                 </div>
             </div>
         </div>
-        
+
     </section>
+    <section id="tuition-calculator" class="loop py-5">
+        <div class="container">
+            <h2 class="tcnj text-center mb-4"> Tuition Calculator</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <form id="calculator-form">
+                            <div class="mb-4">
+                                <label for="residency" class="form-label">Residency State</label> 
+                            <select class="form-select" id="residency" required>
+                                <option value="in-state">In-State</option>
+                                <option value="out-of-state">Out-Of-State</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="boarding" class="form-label">Boarding Option:</label>
+                            <select class="form-select" id="boarding">
+                                <option value="0">Commuting (No Cost)</option>
+                                <option value="8000">Campus Dorms ($8,000/year)</option>
+                                <option value="10000">Nearby Apartments ($10,000/year)</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="meal-plan" class="form-label">Meal Plan:</label>
+                            <select class="form-select" id="meal-plan">
+                              <option value="0">No Meal Plan</option>
+                              <option value="2500">Basic Plan ($2,500/year)</option>
+                              <option value="3500">Standard Plan ($3,500/year)</option>
+                              <option value="4500">Premium Plan ($4,500/year)</option>
+                            </select>
+                          </div>
+                        <button type="submit" class="btn-btn-primary w-100"> Calculate Tuition</button>
+                        </form>
+                        <div id="tuition-result" class="mt-4 text-center lead"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
     </main>
+
+
+
 
     </main>
 

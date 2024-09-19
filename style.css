@@ -158,3 +158,41 @@ nav li.active a {
   font-weight: normal;
   border-bottom: none;
 }
+
+#tuition-calculator {
+  font-family: "EB Garamond", serif;
+}
+
+#tuition-calculator .card {
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+#tuition-calculator .form-label {
+  color: #18487f;
+  font-weight: 500;
+}
+
+#tuition-calculator .form-control,
+#tuition-calculator .form-select {
+  border-color: #18487f;
+}
+
+#tuition-calculator .btn-primary {
+  background-color: #18487f;
+  border-color: #18487f;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 700;
+}
+
+#tuition-calculator .btn-primary:hover {
+  background-color: #a67a00;
+  border-color: #a67a00;
+}
+
+#tuition-result {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.2rem;
+  color: #18487f;
+  font-weight: 700;
+}
